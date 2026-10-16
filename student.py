@@ -1,0 +1,15 @@
+name=input("enter the student name=")
+usn=input("enter the usn of the student=")
+mark1=float(input("enter the marks of subject 1="))
+mark2=float(input("enter the marks of subject 2="))
+mark3=float(input("enter the marks of subject 3="))
+total=mark1+mark2+mark3
+average=total/3
+print("student details")
+print("name=",name)
+print("usn=",usn)
+print("course1",mark1)
+print("course2",mark2)
+print("course3",mark3)
+print("total",total)
+print("average",average)

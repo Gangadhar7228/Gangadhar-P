@@ -1,0 +1,7 @@
+amount=int(input("enter the amount="))
+rate=int(input("enter the rate of intrest="))
+time=int(input("enter the time="))
+intrest=(amount+rate+time/100)
+total_amount=(intrest+amount)
+print("the amount of intrest is=",intrest)
+print("the total amount of intrest is=",total_amount)
